@@ -310,15 +310,15 @@ function App() {
                             <div className="mt-6 space-y-4 text-slate-700">
                                 <div className="rounded-3xl border border-slate-300/70 bg-white/95 p-5">
                                     <p className="text-sm text-slate-600">Email</p>
-                                    <a href="mailto:contact@srisaanth.dev" className="mt-2 block text-lg text-slate-950">contact@srisaanth.dev</a>
+                                    <a href="mailto:srisaanth.b2024csbs@sece.ac.in" className="mt-2 block text-lg text-slate-950">srisaanth.b2024csbs@sece.ac.in</a>
                                 </div>
                                 <div className="rounded-3xl border border-slate-300/70 bg-white/95 p-5">
                                     <p className="text-sm text-slate-600">Professional Profile</p>
-                                    <a href="#" className="mt-2 block text-lg text-slate-950">linkedin.com/in/srisaanthb</a>
+                                    <a href="https://www.linkedin.com/in/srisaanth-b-a0413b328/" target="_blank" rel="noreferrer" className="mt-2 block text-lg text-slate-950">linkedin.com/in/srisaanth-b-a0413b328</a>
                                 </div>
                                 <div className="rounded-3xl border border-slate-300/70 bg-white/95 p-5">
                                     <p className="text-sm text-slate-600">GitHub</p>
-                                    <a href="#" className="mt-2 block text-lg text-slate-950">github.com/srisaanth</a>
+                                    <a href="https://github.com/B-Srisaanth" target="_blank" rel="noreferrer" className="mt-2 block text-lg text-slate-950">github.com/B-Srisaanth</a>
                                 </div>
                             </div>
                         </motion.div>
