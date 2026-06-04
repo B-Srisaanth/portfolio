@@ -8,6 +8,7 @@ import ProjectCard from './components/ProjectCard';
 import TimelineItem from './components/TimelineItem';
 import ProfileCard from './components/ProfileCard';
 import ContactForm from './components/ContactForm';
+import profilePhoto from './assets/photo_sri.jpg';
 
 const heroRoles = ['Full Stack Developer', 'MERN Stack Developer', 'Problem Solver'];
 const heroTagline = 'Building scalable web applications with modern technologies and solving real-world problems through code.';
@@ -186,6 +187,11 @@ function App() {
                             <div className="absolute -left-8 top-10 h-24 w-24 rounded-full bg-sky-300/20 blur-2xl" />
                             <div className="absolute -right-8 bottom-10 h-20 w-20 rounded-full bg-sky-200/20 blur-2xl" />
                             <div className="space-y-6">
+                                <div className="flex items-center justify-center rounded-[2rem] border border-slate-300/70 bg-slate-50 p-4 shadow-lg shadow-slate-300/20">
+                                    <div className="h-[360px] w-full max-w-[280px] overflow-hidden rounded-[2rem]">
+                                        <img src={profilePhoto} alt="Srisaanth profile" className="h-full w-full object-cover object-top shadow-2xl shadow-slate-300/20" />
+                                    </div>
+                                </div>
                                 <div className="rounded-3xl border border-slate-300/70 bg-white/95 p-6 shadow-lg shadow-slate-300/20 backdrop-blur">
                                     <p className="text-sm uppercase tracking-[0.3em] text-slate-600">Recruiter-focused summary</p>
                                     <p className="mt-4 text-slate-700">I build premium web experiences with clean frontend interfaces, scalable backend systems, and effective problem solving for internship-ready deliverables.</p>
